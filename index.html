@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <body>
+        <iframe src="html/index.home.html" width="100%" height="840" allow="autoplay"></iframe>
+        <style>
+            body {
+                background-color: black;
+            }
+            iframe {
+              border: none;
+            }
+        </style>
+        <script>
+            var title = setInterval(() => {
+                document.querySelector('title').textContent = localStorage.getItem("title");
+            }, 1);
+        </script>
+    </body>
+</html>
