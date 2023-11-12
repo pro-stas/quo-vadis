@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 30;
+}
+
+h1 {
+    color: greenyellow;
+    font-size: 80px;
+    font-family: monospace;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 140px;
+    left: 297px;
+}
+
+.paragrapth {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    width: 900;
+    text-align: center;
+    padding: 20 20 20 20;
+    background-color: rgba(139, 0, 139, 0.588);
+    color: burlywood;
+
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+#scene { 
+    height: 560;
+    width: 1025;
+    margin-left: 1%;
+    position: absolute; 
+    left: 60px;
+    top: 40px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: crimson;
+    font-size: large;
+    background-color: rgba(100, 148, 237, 0.374);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 3 3 3 3;
+    position: relative;
+    top: 230px;
+    left: 470;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* options */
+#options {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    top: 2px;
+    left: 2px;
+    background-color: rgba(81, 81, 81, 0.5);
+}
+
+#options p {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+#options #home {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    position: absolute;
+    height: 40px;
+    top: 0px;
+    left: 40px;
+    
+}
+
+#options #home p{
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #home:hover p{
+    visibility: visible;
+}
+
+
+#options #achievements {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    
+}
+
+#options #achievements p{
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #achievements:hover p{
+    visibility: visible;
+}
+
+#options:hover #home {
+    visibility: visible;
+}
+
+#options:hover #achievements {
+    visibility: visible;
+}
+

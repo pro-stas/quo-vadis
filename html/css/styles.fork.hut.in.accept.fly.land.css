@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+#scene {
+    height: 560;
+    width: 1025;
+    margin-left: 1%;
+    position: absolute; 
+    left: 60px;
+    top: 40px;
+}

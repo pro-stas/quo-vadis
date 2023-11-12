@@ -1,0 +1,240 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 30;
+}
+
+.tooltip {
+    padding: 5 5 5 5;
+    font-family:Impact;
+    margin: 0 0 0 0;
+    position: relative;
+    text-align: center;
+    color: coral;
+    height: 10px;
+    top: -50px;
+    left: -360px;
+}
+
+div .text {
+    position: absolute;
+    top: 470px;
+    left: 50px;
+    width: 900;
+    height: 40;
+    text-align: center;
+    padding: 20 20 20 20;
+    background-color: rgba(139, 0, 139, 0.588);
+    color: burlywood;
+
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+#right {
+    position: relative;
+    top: -15px;
+    left: -130px;
+}
+
+#left {
+    position: relative ;
+    top: -165px;
+    left: 270px;
+}
+
+a:hover{
+    text-decoration: overline;
+}
+
+#scene { 
+    height: 560;
+    width: 1025;
+    margin-left: 1%;
+    position: absolute; 
+    left: 60px;
+    top: 40px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    color: cyan;
+    font-size: medium;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 3 3 3 3;
+    font-family: Arial;
+    position: relative;
+    top: -25px;
+    left: 0px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.chatka {
+    position: relative;
+    width: fit-content;
+    height: auto;
+    left: 470px;
+    top: -85px;
+}
+
+.chatka .tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    color: antiquewhite;
+    font-size: medium;
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 3 3 3 3;
+    font-family: Arial;
+    position: relative;
+    top: -90px;
+    left: 0px;
+}
+
+.chatka .tooltiptext a{
+    color: darkorange;
+}
+
+.chatka:hover .tooltiptext {
+    visibility: visible;
+}
+
+#stone-path {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    height: 300px;
+    width: 250px;
+}
+
+#stone-path:hover {
+    background-color: rgba(166, 242, 112, 0.443);
+}
+
+.dirt-path {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dirt-path:hover #up {
+    background-color: rgba(112, 145, 242, 0.443);
+}
+
+.dirt-path:hover #down {
+    background-color: rgba(112, 145, 242, 0.443);
+}
+
+.dirt-path #up {
+    position: absolute;
+    left: 750px;
+    top: 310px;
+    height: 120px;
+    width: 130px;
+}
+
+.dirt-path #down {
+    position: absolute;
+    left: 610px;
+    top: 420px;
+    height: 130px;
+    width: 190px;
+}
+
+#hut {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 590px;
+    top: 367px;
+    height: 30px;
+    width: 20px;
+}
+
+#hut:hover {
+    background-color: rgba(242, 112, 168, 0.443);
+}
+
+
+/* options */
+#options {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    top: 2px;
+    left: 2px;
+    background-color: rgba(81, 81, 81, 0.5);
+}
+
+#options p {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+#options #home {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    position: absolute;
+    height: 40px;
+    top: 0px;
+    left: 40px;
+    
+}
+
+#options #home p{
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #home:hover p{
+    visibility: visible;
+}
+
+
+#options #achievements {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    
+}
+
+#options #achievements p{
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #achievements:hover p{
+    visibility: visible;
+}
+
+#options:hover #home {
+    visibility: visible;
+}
+
+#options:hover #achievements {
+    visibility: visible;
+}

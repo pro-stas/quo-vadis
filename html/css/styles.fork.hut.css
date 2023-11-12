@@ -1,0 +1,206 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 30;
+}
+
+.tooltip h3 {
+    color: darkcyan;
+    background-color: rgba(139, 0, 137, 0.368);
+    font-size: 40;
+    font-family: cursive;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+
+#text {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    width: 900;
+    text-align: center;
+    padding: 20 20 20 20;
+    background-color: rgba(139, 0, 139, 0.588);
+    color: burlywood;
+
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+#scene { 
+    height: 560;
+    width: 1025;
+    margin-left: 1%;
+    position: absolute; 
+    left: 60px;
+    top: 40px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    color: cyan;
+    font-size: large;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 3 3 3 3;
+    position: absolute;
+    top: 310px;
+    left: 580;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#timer {
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 62px;
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: left;
+}
+
+#timer #clock {
+    height: 50px;
+    position: relative;
+    top: -45px;
+    left: -420px;
+    text-align: center;
+}
+
+#timer .countdown {
+    background-color: black;
+    position: absolute;
+    width: 810px;
+    height: 30px;
+    text-align: center;
+    top: 2px;
+    left: 70px;
+    border: double 8px white;
+}
+
+#timer .countdown #number {
+    background-color: chartreuse;
+    height: 30px;
+    width: 810px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -30;
+    
+}
+
+#timer .countdown #number p {
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -5;
+    
+}
+
+.countdown #tooltipnumber {
+    visibility: hidden;
+    position: relative;
+    font-size: 15px;
+    top: -53px;
+    left: 450px;
+    padding: 5 3;
+    margin: 3 3 3 3;
+    background-color: blue;
+    color: chocolate;
+
+}
+
+.countdown:hover #tooltipnumber {
+    visibility: visible;
+}
+
+/* options */
+#options {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    top: 62px;
+    left: 2px;
+    background-color: rgba(81, 81, 81, 0.5);
+}
+
+#options p {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+#options #home {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    position: absolute;
+    height: 40px;
+    top: 0px;
+    left: 40px;
+    
+}
+
+#options #home p{
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #home:hover p{
+    visibility: visible;
+}
+
+
+#options #achievements {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    
+}
+
+#options #achievements p{
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #achievements:hover p{
+    visibility: visible;
+}
+
+#options:hover #home {
+    visibility: visible;
+}
+
+#options:hover #achievements {
+    visibility: visible;
+}
+

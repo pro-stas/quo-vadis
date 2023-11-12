@@ -1,0 +1,180 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 30;
+}
+
+#add {
+    visibility: visible;
+    height: 630;
+    width: auto;
+    padding: 5 5 5 5;
+    margin: 10 10 10 10;
+}
+
+h1 {
+    color: darkcyan;
+    background-color: rgba(139, 0, 137, 0.368);
+    font-size: 110;
+    font-family: cursive;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 10px;
+    left: 240px;
+}
+
+.paragrapth {
+    position: absolute;
+    top: 550px;
+    left: 170px;
+    width: 900;
+    text-align: center;
+    padding: 20 20 20 20;
+    background-color: rgba(139, 0, 139, 0.588);
+    color: burlywood;
+
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+#scene { 
+    height: 560;
+    width: 1025;
+    margin-left: 1%;
+    position: absolute; 
+    left: 60px;
+    top: 40px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: cyan;
+    font-size: large;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 3 3 3 3;
+    position: relative;
+    top: 150px;
+    left: 400;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#continue {
+    visibility: hidden;
+}
+
+#pass #continue {
+    position: absolute;
+    left: 600px;
+    width: 500px;
+}
+
+#pass {
+    position: relative;
+    text-align: right;
+    top: -5px;
+    left: -40px;
+}
+
+#num {
+    position: relative;
+    text-align: right;
+    top: -70px;
+    left: 50px;
+}
+
+.paragrapth {
+    visibility: hidden;
+}
+
+.paragrapth #back {
+    position: relative;
+    text-align: center;
+}
+
+/* options */
+#options {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    bottom: -100px;
+    left: 2px;
+    background-color: rgba(81, 81, 81, 0.5);
+}
+
+#options p {
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+}
+
+#options #home {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    position: absolute;
+    height: 40px;
+    bottom: -100px;
+    left: 40px;
+    
+}
+
+#options #home p{
+    visibility: hidden;
+    position: relative;
+    bottom: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #home:hover p{
+    visibility: visible;
+}
+
+
+#options #achievements {
+    visibility: hidden;
+    background-color: rgba(81, 81, 81, 0.5);
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    
+}
+
+#options #achievements p{
+    visibility: hidden;
+    position: relative;
+    bottom: -30px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#options #achievements:hover p{
+    visibility: visible;
+}
+
+#options:hover #home {
+    visibility: visible;
+}
+
+#options:hover #achievements {
+    visibility: visible;
+}
