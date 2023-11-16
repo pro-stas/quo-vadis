@@ -1,0 +1,243 @@
+body {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+h1 {
+    color: blanchedalmond;
+    font-size: 150px;
+}
+
+#google {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+#submit {
+    position: relative;
+    width: 170px;
+    height: 60px;
+    top: -15px;
+    left: 20px;
+    text-align: center;
+}
+
+#submit-reg {
+    position: relative;
+    width: 130px;
+    height: 50px;
+    top: -30px;
+    left: 40px;
+    text-align: center;
+}
+
+#back {
+    
+    position: relative;
+        
+    top: -132px;
+        
+    width: 100px;
+        
+    height: 75px;
+        
+    background-color: white;
+        
+    margin: 10px;
+        
+    border: 5px solid black;
+        
+    left: 186px;
+    }
+
+#log svg {
+    position: relative;
+    top: -80px;
+    left: 20px;
+    text-align: center;
+}
+
+#registers {
+    height: 96px;
+    width: 128px;
+    position: relative;
+    top: -29px;
+    left: -95px;
+    text-align: center;
+}
+
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+
+#pass-login {
+    position: absolute;
+    top: -66px;
+    text-align: center;
+    border: solid 10px white;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+
+#pass-reg {
+    position: absolute;
+    top: -49px;
+    width: 200px;
+    height: 30px;
+    text-align: right;
+    border: solid 10px white;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+
+#pass-reg b {
+    position: relative;
+    top: -55px;
+}
+
+#text {
+    color:cornsilk;
+    background-color: black;
+    margin: 25px;
+    border: 15px dotted white;
+    font-size: 50px;
+}
+
+#text svg {
+    position: relative;
+    top: 8px;
+}
+
+b {
+    position: relative;
+    top: -7px;
+}
+
+i {
+    color: white;
+
+}
+
+#log {
+    visibility: visible;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-align: left;
+    font-size: x-large;
+    width: 320px;
+    height: 320px;
+    background-color: lightgray;
+}
+
+#register {
+    position: relative;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+    left: -130px;
+}
+
+#mail {
+    position: relative;
+    top: 10px;
+    background-color: white;
+    border: 10px solid white;
+}
+
+#reg {
+    visibility: hidden;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    text-align: left;
+    font-size: x-large;
+    width: 320px;
+    height: 320px;
+    background-color: lightgray;
+}
+
+#password {
+    position: relative;
+    left: 10px;
+    top: -10px;
+    height: 40px;
+    width: 10px;
+    font-size: medium;
+    width: fit-content;
+}
+
+#reg-password {
+    position: relative;
+    left: 10px;
+    top: -10px;
+    height: 40px;
+    width: 10px;
+    font-size: medium;
+    width: fit-content;
+}
+
+#reg-password-confirm {
+    position: relative;
+    left: 10px;
+    top: -10px;
+    height: 40px;
+    width: 10px;
+    font-size: medium;
+    width: fit-content;
+}
+
+#email {
+    height: 40px;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    font-size: large;
+    width: fit-content;
+}
+
+#reg-email {
+    height: 40px;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    font-size: medium;
+    width: fit-content;
+}
+
+#e-label {
+    color: black;
+    position: relative;
+    left: 10px;
+}
+
+#reg-e-label {
+    color: black;
+    position: relative;
+    left: 10px;
+}
+
+#p-label {
+    color: black;
+    position: relative;
+    left: 10px;
+}
+
+#reg-p-label {
+    color: black;
+    position: relative;
+    left: 10px;
+}
+
+#reg-conf-p-label {
+    color: black;
+    position: relative;
+    left: 10px;
+}
